@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F567715715222DC200039060 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567715615222DC200039060 /* Cocoa.framework */; };
+		F567716115222DC300039060 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F567715F15222DC300039060 /* InfoPlist.strings */; };
+		F567716315222DC300039060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F567716215222DC300039060 /* main.m */; };
+		F567716715222DC300039060 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F567716515222DC300039060 /* Credits.rtf */; };
+		F567716A15222DC300039060 /* MyClipAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F567716915222DC300039060 /* MyClipAppDelegate.m */; };
+		F567716D15222DC300039060 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F567716B15222DC300039060 /* MainMenu.xib */; };
+		F567717515222DC300039060 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567717415222DC300039060 /* SenTestingKit.framework */; };
+		F567717615222DC300039060 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567715615222DC200039060 /* Cocoa.framework */; };
+		F567717E15222DC300039060 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F567717C15222DC300039060 /* InfoPlist.strings */; };
+		F567718015222DC300039060 /* MyClipTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F567717F15222DC300039060 /* MyClipTests.h */; };
+		F567718215222DC300039060 /* MyClipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F567718115222DC300039060 /* MyClipTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F567717715222DC300039060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F567714915222DC200039060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F567715115222DC200039060;
+			remoteInfo = MyClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F567715215222DC200039060 /* MyClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F567715615222DC200039060 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F567715915222DC300039060 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F567715A15222DC300039060 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F567715B15222DC300039060 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F567715E15222DC300039060 /* MyClip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyClip-Info.plist"; sourceTree = "<group>"; };
+		F567716015222DC300039060 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F567716215222DC300039060 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F567716415222DC300039060 /* MyClip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyClip-Prefix.pch"; sourceTree = "<group>"; };
+		F567716615222DC300039060 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F567716815222DC300039060 /* MyClipAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClipAppDelegate.h; sourceTree = "<group>"; };
+		F567716915222DC300039060 /* MyClipAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClipAppDelegate.m; sourceTree = "<group>"; };
+		F567716C15222DC300039060 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F567717315222DC300039060 /* MyClipTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyClipTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F567717415222DC300039060 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F567717B15222DC300039060 /* MyClipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyClipTests-Info.plist"; sourceTree = "<group>"; };
+		F567717D15222DC300039060 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F567717F15222DC300039060 /* MyClipTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClipTests.h; sourceTree = "<group>"; };
+		F567718115222DC300039060 /* MyClipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClipTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F567714F15222DC200039060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567715715222DC200039060 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F567716F15222DC300039060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567717515222DC300039060 /* SenTestingKit.framework in Frameworks */,
+				F567717615222DC300039060 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F567714715222DC200039060 = {
+			isa = PBXGroup;
+			children = (
+				F567715C15222DC300039060 /* MyClip */,
+				F567717915222DC300039060 /* MyClipTests */,
+				F567715515222DC200039060 /* Frameworks */,
+				F567715315222DC200039060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F567715315222DC200039060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F567715215222DC200039060 /* MyClip.app */,
+				F567717315222DC300039060 /* MyClipTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F567715515222DC200039060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F567715615222DC200039060 /* Cocoa.framework */,
+				F567717415222DC300039060 /* SenTestingKit.framework */,
+				F567715815222DC300039060 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F567715815222DC300039060 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F567715915222DC300039060 /* AppKit.framework */,
+				F567715A15222DC300039060 /* CoreData.framework */,
+				F567715B15222DC300039060 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F567715C15222DC300039060 /* MyClip */ = {
+			isa = PBXGroup;
+			children = (
+				F567716815222DC300039060 /* MyClipAppDelegate.h */,
+				F567716915222DC300039060 /* MyClipAppDelegate.m */,
+				F567716B15222DC300039060 /* MainMenu.xib */,
+				F567715D15222DC300039060 /* Supporting Files */,
+			);
+			path = MyClip;
+			sourceTree = "<group>";
+		};
+		F567715D15222DC300039060 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F567715E15222DC300039060 /* MyClip-Info.plist */,
+				F567715F15222DC300039060 /* InfoPlist.strings */,
+				F567716215222DC300039060 /* main.m */,
+				F567716415222DC300039060 /* MyClip-Prefix.pch */,
+				F567716515222DC300039060 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F567717915222DC300039060 /* MyClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				F567717F15222DC300039060 /* MyClipTests.h */,
+				F567718115222DC300039060 /* MyClipTests.m */,
+				F567717A15222DC300039060 /* Supporting Files */,
+			);
+			path = MyClipTests;
+			sourceTree = "<group>";
+		};
+		F567717A15222DC300039060 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F567717B15222DC300039060 /* MyClipTests-Info.plist */,
+				F567717C15222DC300039060 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F567715115222DC200039060 /* MyClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F567718515222DC300039060 /* Build configuration list for PBXNativeTarget "MyClip" */;
+			buildPhases = (
+				F567714E15222DC200039060 /* Sources */,
+				F567714F15222DC200039060 /* Frameworks */,
+				F567715015222DC200039060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyClip;
+			productName = MyClip;
+			productReference = F567715215222DC200039060 /* MyClip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F567717215222DC300039060 /* MyClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F567718815222DC300039060 /* Build configuration list for PBXNativeTarget "MyClipTests" */;
+			buildPhases = (
+				F567716E15222DC300039060 /* Sources */,
+				F567716F15222DC300039060 /* Frameworks */,
+				F567717015222DC300039060 /* Resources */,
+				F567717115222DC300039060 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F567717815222DC300039060 /* PBXTargetDependency */,
+			);
+			name = MyClipTests;
+			productName = MyClipTests;
+			productReference = F567717315222DC300039060 /* MyClipTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F567714915222DC200039060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "インタープリズム株式会社";
+			};
+			buildConfigurationList = F567714C15222DC200039060 /* Build configuration list for PBXProject "MyClip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F567714715222DC200039060;
+			productRefGroup = F567715315222DC200039060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F567715115222DC200039060 /* MyClip */,
+				F567717215222DC300039060 /* MyClipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F567715015222DC200039060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567716115222DC300039060 /* InfoPlist.strings in Resources */,
+				F567716715222DC300039060 /* Credits.rtf in Resources */,
+				F567716D15222DC300039060 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F567717015222DC300039060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567717E15222DC300039060 /* InfoPlist.strings in Resources */,
+				F567718015222DC300039060 /* MyClipTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F567717115222DC300039060 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F567714E15222DC200039060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567716315222DC300039060 /* main.m in Sources */,
+				F567716A15222DC300039060 /* MyClipAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F567716E15222DC300039060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F567718215222DC300039060 /* MyClipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F567717815222DC300039060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F567715115222DC200039060 /* MyClip */;
+			targetProxy = F567717715222DC300039060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F567715F15222DC300039060 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F567716015222DC300039060 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F567716515222DC300039060 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F567716615222DC300039060 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F567716B15222DC300039060 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F567716C15222DC300039060 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F567717C15222DC300039060 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F567717D15222DC300039060 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F567718315222DC300039060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F567718415222DC300039060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F567718615222DC300039060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClip/MyClip-Prefix.pch";
+				INFOPLIST_FILE = "MyClip/MyClip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F567718715222DC300039060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClip/MyClip-Prefix.pch";
+				INFOPLIST_FILE = "MyClip/MyClip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F567718915222DC300039060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyClip.app/Contents/MacOS/MyClip";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClip/MyClip-Prefix.pch";
+				INFOPLIST_FILE = "MyClipTests/MyClipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F567718A15222DC300039060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyClip.app/Contents/MacOS/MyClip";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClip/MyClip-Prefix.pch";
+				INFOPLIST_FILE = "MyClipTests/MyClipTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F567714C15222DC200039060 /* Build configuration list for PBXProject "MyClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F567718315222DC300039060 /* Debug */,
+				F567718415222DC300039060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F567718515222DC300039060 /* Build configuration list for PBXNativeTarget "MyClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F567718615222DC300039060 /* Debug */,
+				F567718715222DC300039060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F567718815222DC300039060 /* Build configuration list for PBXNativeTarget "MyClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F567718915222DC300039060 /* Debug */,
+				F567718A15222DC300039060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F567714915222DC200039060 /* Project object */;
+}

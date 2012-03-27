@@ -121,9 +121,9 @@
 		F567715C15222DC300039060 /* MyClip */ = {
 			isa = PBXGroup;
 			children = (
+				F567716B15222DC300039060 /* MainMenu.xib */,
 				F567716815222DC300039060 /* MyClipAppDelegate.h */,
 				F567716915222DC300039060 /* MyClipAppDelegate.m */,
-				F567716B15222DC300039060 /* MainMenu.xib */,
 				F567718B152230B700039060 /* Model.h */,
 				F567718C152230B700039060 /* Model.m */,
 				F567718E1522334C00039060 /* Controller.h */,

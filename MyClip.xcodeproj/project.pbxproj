@@ -18,6 +18,8 @@
 		F567717E15222DC300039060 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F567717C15222DC300039060 /* InfoPlist.strings */; };
 		F567718015222DC300039060 /* MyClipTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F567717F15222DC300039060 /* MyClipTests.h */; };
 		F567718215222DC300039060 /* MyClipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F567718115222DC300039060 /* MyClipTests.m */; };
+		F567718D152230B700039060 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F567718C152230B700039060 /* Model.m */; };
+		F56771901522334C00039060 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = F567718F1522334C00039060 /* Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		F567717D15222DC300039060 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F567717F15222DC300039060 /* MyClipTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClipTests.h; sourceTree = "<group>"; };
 		F567718115222DC300039060 /* MyClipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClipTests.m; sourceTree = "<group>"; };
+		F567718B152230B700039060 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F567718C152230B700039060 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F567718E1522334C00039060 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		F567718F1522334C00039060 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				F567716815222DC300039060 /* MyClipAppDelegate.h */,
 				F567716915222DC300039060 /* MyClipAppDelegate.m */,
 				F567716B15222DC300039060 /* MainMenu.xib */,
+				F567718B152230B700039060 /* Model.h */,
+				F567718C152230B700039060 /* Model.m */,
+				F567718E1522334C00039060 /* Controller.h */,
+				F567718F1522334C00039060 /* Controller.m */,
 				F567715D15222DC300039060 /* Supporting Files */,
 			);
 			path = MyClip;
@@ -264,6 +274,8 @@
 			files = (
 				F567716315222DC300039060 /* main.m in Sources */,
 				F567716A15222DC300039060 /* MyClipAppDelegate.m in Sources */,
+				F567718D152230B700039060 /* Model.m in Sources */,
+				F56771901522334C00039060 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
